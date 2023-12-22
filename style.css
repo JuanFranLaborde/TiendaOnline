@@ -56,7 +56,7 @@ body {
     background-color: #7270EC;
 }
 
-.memu {
+.menu {
     position: absolute;
     top: 0;
     left: 0;
@@ -94,7 +94,7 @@ body {
     display: none;
 }
 
-.meni-icon {
+.menu-icon {
     width: 25px;
 }
 
@@ -121,4 +121,100 @@ body {
     background-color: #4e4b5076;
     padding: 20px;
     min-width: 400px;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    color: #feffff;
+}
+
+.borrar {
+    background-color: #7270EC;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #feffff;
+    font-weight: 800;
+}
+
+.header-content {
+    padding: 200px 0 100px 0;
+}
+
+.header-info {
+    display: flex;
+}
+
+.header-txt {
+    width: 50%;
+}
+
+.header-txt h1{
+    font-size: 50px;
+    color: #feffff;
+    text-transform: capitalize;
+}
+
+.header-img{
+    width: 50%;
+    text-align: right;
+}
+
+.header-img img{
+    width: 500px;
+}
+
+.prices{
+    display: flex;
+    margin: 20px 0;
+}
+
+.price-1 { 
+    font-size: 30px;
+    color: #747b8f;
+    text-decoration-line: line-through;
+    margin-right: 25px;
+}
+
+.price-2 {
+    font-size: 30px;
+    color: #7270EC !important;
+}
+
+.btn-1{
+    display: inline-block;
+    background-color: #7270EC;
+    color: #feffff;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+.btn-1:hover{
+    background-color: #6c69f9;
+}
+
+hr{
+    border:1px solid #7a7b8f16;
+}
+
+.promos{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.promos h2{
+    font-size: 50px;
+    color:#feffff;
+    margin-bottom: 35px;
+}
+
+.categories { 
+    text-align: left;
+    
 }
