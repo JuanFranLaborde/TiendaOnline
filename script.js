@@ -94,7 +94,7 @@ function insertarCarrito(elemento) {
     
     
         <td>
-            <a herf="#" class="borrar" data-id="${elemento.id}"> x </a>  
+            <a herf="#" class="borrar" data-id="${elemento.id}"> Eliminar </a>  
         </td>  
     `;
 

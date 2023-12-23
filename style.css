@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #242430;
+    background-color: black;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #7270EC;
+    background-color: #e89153;
 }
 
 .menu {
@@ -68,10 +68,17 @@ body {
 }
 
 .logo {
-    font-size: 25px;
-    color: #7270EC;
+    font-size: 35px;
+    color: #feffff;
     text-transform: uppercase;
     font-weight: 800;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.logo:hover {
+    color: #e89153;
+    transform: scale(1.2);
 }
 
 .menu .navbar ul li {
@@ -86,8 +93,8 @@ body {
     display: block;
 }
 
-.menu .navbar ul li a :hover {
-    color: #7270EC;
+.menu .navbar :hover {
+    color: #e89153;
 }
 
 #menu {
@@ -121,7 +128,9 @@ body {
     background-color: #4e4b5076;
     padding: 20px;
     min-width: 400px;
+    border-radius: 25px;
 }
+
 
 table {
     width: 100%;
@@ -133,12 +142,18 @@ td {
 }
 
 .borrar {
-    background-color: #7270EC;
-    border-radius: 50%;
+    background-color: #e89153;
+    border-radius: 25px;
     padding: 5px 10px;
     text-decoration: none;
     color: #feffff;
     font-weight: 800;
+    user-select: none;
+    cursor: pointer;
+}
+
+.borrar:hover {
+    background-color: red;
 }
 
 .header-content {
@@ -178,16 +193,17 @@ td {
     color: #747b8f;
     text-decoration-line: line-through;
     margin-right: 25px;
+    text-decoration-color: #e89153;
 }
 
 .price-2 {
     font-size: 30px;
-    color: #7270EC !important;
+    color: #e89153 !important;
 }
 
 .btn-1 {
     display: inline-block;
-    background-color: #7270EC;
+    background-color: #e89153;
     color: #feffff;
     font-size: 16px;
     padding: 10px 25px;
@@ -196,7 +212,7 @@ td {
 }
 
 .btn-1:hover {
-    background-color: #6c69f9;
+    background-color: #d56f26;
 }
 
 hr {
@@ -285,7 +301,7 @@ hr {
 }
 
 .precio {
-    color: #7270EC !important;
+    color: #e89153 !important;
 }
 
 .btn-3 {
@@ -293,13 +309,13 @@ hr {
     padding: 10px 25px;
     font-size: 14px;
     color: #feffff;
-    border: 1px solid #7270EC;
+    border: 1px solid #e89153;
     border-radius: 25px;
     margin-top: 15px;
 }
 
 .btn-3:hover {
-    background-color: #7270EC;
+    background-color: #e89153;
 }
 
 .footer {
@@ -351,7 +367,7 @@ hr {
         width: 100%;
     }
 
-    #menu:checked ~ .navbar {
+    #menu:checked~.navbar {
         display: initial;
     }
 
