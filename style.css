@@ -321,6 +321,7 @@ hr {
 .footer {
     display: flex;
     padding: 30px 0;
+    margin-left: 15px;
 }
 
 .link {
@@ -336,7 +337,7 @@ hr {
     color: #747b8f;
     font-size: 16px;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 10px;    
 }
 
 .link p {
